@@ -1,0 +1,107 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "4a2cc345-07be-4ab2-9ca8-ec1e13b61331": {
+        "id": "4a2cc345-07be-4ab2-9ca8-ec1e13b61331",
+        "parent": null,
+        "name": "asdsazx.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "asdsazx.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "cwecustomRule",
+            "config": {}
+          }
+        ],
+        "testCases": {
+          "e5b36fee-7caa-444f-9476-fcf92ea41be2": {
+            "id": "e5b36fee-7caa-444f-9476-fcf92ea41be2",
+            "name": "Test event",
+            "functionId": "4a2cc345-07be-4ab2-9ca8-ec1e13b61331",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "4a2cc345-07be-4ab2-9ca8-ec1e13b61331"
+    ],
+    "currentFileId": "4a2cc345-07be-4ab2-9ca8-ec1e13b61331",
+    "resources": {
+      "ebResource": {
+        "name": "ebResource",
+        "type": "EventBridge",
+        "config": {
+          "selectedRegion": "us-east-1"
+        }
+      },
+      "cwecustomRule": {
+        "name": "cwecustomRule",
+        "type": "CLOUD_WATCH",
+        "config": {
+          "mode": 1,
+          "arn": "arn:aws:events:us-east-1:318300609668:rule/my-event-bus-udith/custom-rule",
+          "name": "custom-rule",
+          "eventBusName": "my-event-bus-udith"
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "asdsazx",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1585304837295
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "asdsazx",
+      "url": "https://github.com/Indunil1992/asdsazx"
+    }
+  }
+}
