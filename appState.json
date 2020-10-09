@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "asdsazx.js",
         "cursor": {
-          "lineNumber": 1,
-          "column": 1
+          "lineNumber": 3,
+          "column": 5
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -35,7 +35,8 @@
             "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
             "eventTemplate": "hello-world"
           }
-        }
+        },
+        "lastUpdated": 1602243510737
       }
     },
     "openFiles": [
@@ -46,9 +47,7 @@
       "ebResource": {
         "name": "ebResource",
         "type": "EventBridge",
-        "config": {
-          "selectedRegion": "us-east-1"
-        }
+        "config": {}
       },
       "cwecustomRule": {
         "name": "cwecustomRule",
@@ -62,8 +61,9 @@
       }
     },
     "customTemplate": {
-      "dialect": null,
-      "definitions": null
+      "dialect": "CloudFormation",
+      "definitions": null,
+      "syntax": "JSON"
     },
     "envVariables": [
       {
@@ -88,6 +88,7 @@
     }
   },
   "PROJECT_META": {
+    "sigmaVersion": "1.4.4",
     "projectName": "asdsazx",
     "projectDescription": "",
     "projectVersion": "1.0.0",
@@ -95,7 +96,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585304837295
+    "lastSave": 1602243532985
   },
   "VCS_STATE": {
     "provider": "GitHub",
